@@ -80,7 +80,7 @@ window.config(padx=100,pady=50,bg=YELLOW)
 #bg and highlightthicknes are keyword(kw) agruguments to fully change the background
 canvas = Canvas(width=200, heigh=224, bg=YELLOW, highlightthickness=0)
 #to be able to see the image
-tomato_image = PhotoImage(file=r"PROJECTS\100days_of_code\TKinter\Pomodoro_timer\tomato.png")
+tomato_image = PhotoImage(file=r"file path\tomato.png")
 
 #to place image in the center
 canvas.create_image(100,112, image=tomato_image)
